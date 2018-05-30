@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Globalization;
+using Kata.Level7;
 using NUnit.Framework;
 
 namespace Kata.Tests
 {
     [TestFixture]
-    public class NthSeriesSumTests
+    public class NthSeriesSumTest
     {
         public static string solution(int n)
         {
@@ -29,7 +30,7 @@ namespace Kata.Tests
             {
                 int x = r.Next(0, 100);
                 Console.WriteLine("Random Nth with n: " + x);
-                Assert.AreEqual(NthSeriesSumTests.solution(x), NthSeriesSum.SeriesSum(x));
+                Assert.AreEqual(NthSeriesSumTest.solution(x), NthSeriesSum.SeriesSum(x));
             }
         }
 
@@ -66,7 +67,7 @@ namespace Kata.Tests
         [Test]
         public void Test6()
         {
-            NthSeriesSumTests.RandomTests();
+            NthSeriesSumTest.RandomTests();
         }
     }
 }

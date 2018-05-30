@@ -1,6 +1,6 @@
 ﻿using System.Globalization;
 
-namespace Kata
+namespace Kata.Level7
 {
     public class NthSeriesSum
     {
