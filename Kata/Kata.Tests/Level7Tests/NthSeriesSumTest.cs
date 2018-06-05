@@ -3,7 +3,7 @@ using System.Globalization;
 using Kata.Level7;
 using NUnit.Framework;
 
-namespace Kata.Tests
+namespace Kata.Tests.Level7Tests
 {
     [TestFixture]
     public class NthSeriesSumTest

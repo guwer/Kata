@@ -46,10 +46,11 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SolutionsLevel7\HighestAndLowestTest.cs" />
-    <Compile Include="SolutionsLevel7\NthSeriesSumTest.cs" />
+    <Compile Include="Level7Tests\HighestAndLowestTest.cs" />
+    <Compile Include="Level7Tests\NthSeriesSumTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SolutionsLevel7\SquareTest.cs" />
+    <Compile Include="Level7Tests\ReverseWordsTest.cs" />
+    <Compile Include="Level7Tests\SquareTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

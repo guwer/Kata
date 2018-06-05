@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Kata.Level7
 {
@@ -41,6 +40,35 @@ namespace Kata.Level7
                 i++;
             }
             return false;
+        }
+
+        public static string ReverseWords(string str)
+        {
+            var words = new StringBuilder();
+            var word = string.Empty;
+            var chars = str.ToCharArray();
+            for (int i = 0; i < chars.Length; i++)
+            {
+                var current = chars[i];
+
+                if (!char.IsWhiteSpace(current))
+                {
+                    word = word + current;
+
+                    if (i < chars.Length - 1)
+                    {
+                        continue;
+                    }
+                }
+                words.Append(word.Reverse().ToArray());
+                word = string.Empty;
+
+                if (string.IsNullOrWhiteSpace(current.ToString()))
+                {
+                    words.Append(current.ToString());
+                }
+            }
+            return words.ToString();
         }
     }
 }
