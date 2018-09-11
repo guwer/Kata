@@ -46,6 +46,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Level6Tests\TowerBuilderTests.cs" />
     <Compile Include="Level7Tests\HighestAndLowestTest.cs" />
     <Compile Include="Level7Tests\NthSeriesSumTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
