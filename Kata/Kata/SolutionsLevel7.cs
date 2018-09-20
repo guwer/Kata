@@ -70,5 +70,11 @@ namespace Kata.Level7
             }
             return words.ToString();
         }
+
+        public static string AddBinary(int a, int b)
+        {
+            var binaryResult = Convert.ToString(a + b, 2);
+            return binaryResult.ToString();
+        }
     }
 }
