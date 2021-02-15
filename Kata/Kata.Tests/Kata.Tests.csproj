@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Kata.Tests</RootNamespace>
     <AssemblyName>Kata.Tests</AssemblyName>
-    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">15.0</VisualStudioVersion>
@@ -51,6 +51,7 @@
     <Compile Include="Level7Tests\AddBinaryTest.cs" />
     <Compile Include="Level7Tests\HighestAndLowestTest.cs" />
     <Compile Include="Level7Tests\NthSeriesSumTest.cs" />
+    <Compile Include="Level7Tests\TwoToOneTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Level7Tests\ReverseWordsTest.cs" />
     <Compile Include="Level7Tests\SquareTest.cs" />
