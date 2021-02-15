@@ -76,5 +76,13 @@ namespace Kata.Level7
             var binaryResult = Convert.ToString(a + b, 2);
             return binaryResult.ToString();
         }
+
+        public static string Longest(string s1, string s2)
+        {
+            var joined = String.Concat(s1, s2);
+            var result = joined.GroupBy(c => c);
+
+            return string.Join("", result.Select(c => c.Key).OrderBy(c => c));
+        }
     }
 }
