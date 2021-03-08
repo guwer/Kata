@@ -84,5 +84,12 @@ namespace Kata.Level7
 
             return string.Join("", result.Select(c => c.Key).OrderBy(c => c));
         }
+
+        public static int DescendingOrder(int num)
+        {
+            var numbers = num.ToString().ToArray().OrderByDescending(c => c);
+            var result = numbers.Aggregate("", (str, c) => str += c);
+            return int.Parse(result);
+        }
     }
 }

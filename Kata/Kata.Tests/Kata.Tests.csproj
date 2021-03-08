@@ -47,6 +47,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DescendingOrderTests.cs" />
     <Compile Include="Level6Tests\TowerBuilderTests.cs" />
     <Compile Include="Level7Tests\AddBinaryTest.cs" />
     <Compile Include="Level7Tests\HighestAndLowestTest.cs" />
